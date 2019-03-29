@@ -1,0 +1,80 @@
+body {
+  background-color: #1e272e;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 560px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+main > .content > h1 {
+  font-size: 2.9em;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+main > .content > h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.content {
+  margin-top: 135px;
+  text-align: center;
+}
+
+.personal-photo {
+  border-radius: 90px;
+}
+
+.social {
+  margin-top: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.social > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social > ul > li {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.social > ul > li > a {
+  text-decoration: none;
+}
+
+.social > ul > li > a:hover {
+  color: #fdcb6e;
+  text-decoration: none;
+}
+
+hr {
+  border:none;
+	margin-top: 0;
+	border-bottom: 1px solid #f1c40f;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #fdcb6e;
+}
